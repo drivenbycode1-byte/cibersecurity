@@ -42,3 +42,24 @@ UNLOCK TABLES;
 -- ============================================
 -- EJERCICIOS DE CONSULTAS
 -- ============================================
+
+-- ============================================
+-- CONSULTAS DE PRACTICA
+-- ============================================
+
+SELECT * FROM users;
+
+SELECT user_id, name FROM devices;
+
+SELECT DISTINCT age FROM users;
+
+SELECT * FROM users WHERE email = 'diego@gmail.com' AND surname LIKE 'S%';
+
+SELECT DISTINCT age FROM users WHERE age = 35;
+
+SELECT * FROM devices WHERE type LIKE '%Linux%';
+
+SELECT name FROM users ORDER BY date DESC;
+
+SELECT * FROM devices LIMIT 2;
+
