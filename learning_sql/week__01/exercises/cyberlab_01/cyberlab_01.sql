@@ -43,10 +43,6 @@ UNLOCK TABLES;
 -- EJERCICIOS DE CONSULTAS
 -- ============================================
 
--- ============================================
--- CONSULTAS DE PRACTICA
--- ============================================
-
 SELECT * FROM users;
 
 SELECT user_id, name FROM devices;

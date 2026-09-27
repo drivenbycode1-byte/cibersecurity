@@ -1,10 +1,18 @@
+-- ============================================
+-- SQL
+-- Autor: Diego Silva
+-- Fecha: 2024-09-25
+-- ============================================
+
 ===__SQL__=== 
 
 SEMANA 1- 23 SEPTIEMBRE AL 27 SEPTIEMBRE
 
+23 y 24 de Septiembre:
+
 Structure Query Language = Lenguaje de Consultas Estructurada
 
-Bases de datos: almacena y consulta grandes cantidades de información que pueden ser cruzadas entre sí para relacionarlas en tablas y columnas/filas (SQL) como MySQL o PostgreSQL o no relacionadas (NoSQL) que son archivos tipo json o son esquemas más flexibles como MongoDB.
+Bases de datos: almacena y consulta grandes cantidades de información que pueden ser cruzadas entre sí para relacionarlas en tablas y columnas/filas (SQL) como MySQL o PostgreSQL o no relacionadas o documentales (NoSQL) que son archivos tipo json o son esquemas más flexibles como MongoDB.
 
 Las primeras bases de datos estaban basadas en ficheros pero no era tan complejo, o sea, solo guardar, pero relacionarlo era lo complicado (nombres del cliente, el stock, cantidades, etc.).
 
@@ -86,3 +94,24 @@ git push -u origin main > -u establece el upstream de mi rama local con una rama
 push → sube tus commits al repositorio remoto.
 origin main → sube la rama local main al remoto origin.
 -u (--set-upstream) → deja configurada la relación entre tu main local y origin/main.
+
+EJERCICIOS LISTOS.
+
+25 DE SEPTIEMBRE:
+
+Seguimos con commandos:
+
+IS NULL: seleccionar los usuarios que tengan información nula.
+IS NOT NULL: selecciona a usuarios que no tengan NULL.
+MIN / MAX: usarlo por ejemplo para usuarios que tiene cierta edad específica y quiero darles un premio, por lo general es muy selectivo. habitualmente
+COUNT: Cuenta los atributos totales de cierta información.
+SUM: Suma los valores.
+AVG: comando average que calcula la media.
+IN: hacer un filtrado en donde conocemos diferentes valores. Para usarlo debemos estar 100% seguros
+AS (ALIAS): Para dar nombre distinto a lo que tenemos, darle un Nick para que sea más fácil identificar
+CONCAT: concatenar cadenas , atributoas, columnas. POR ejemplo, sacar nombre y apellido en euna misma columna
+GROUP BY: agrupacion sin filtrado, se usa con criterios como con MIN o MAX
+HAVING: cuando la clave no se puede usaar en funciones agregadas. Se usa habitual con funciones que agrupan de alguna manera. También como limitación sobre una columna que nosotros mismos escribimos.
+CASE: en función de un resultado qué va a psar. lanzar una lógica concreta en función de una condición
+tenemos WHEN, THEN, ELSE, END. Además debemos usar la coma ','
+IFNULL: Cuando algo sea nulo, no me ponga el resultado nulo

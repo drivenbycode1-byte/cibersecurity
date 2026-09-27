@@ -9,4 +9,7 @@ Este repositorio contiene fundamentos y mis prácticas de SQL como parte de mi r
 ## Contenido
 - Creación de base de datos CyberLab
 - Tablas: users y devices
-- Consultas con SELECT, WHERE, LIKE, ORDER BY, LIMIT, DISTINCT, AND, OR, NOT
+- Consultas con SELECT, WHERE, LIKE, ORDER BY, LIMIT, DISTINCT, AND, OR, NOT.
+- Consultas con IS NULL, IS NO NULL, MIN, MAX, COUNT, SUM, AVG, IN, AS, CONCAT, GROUP BY, HAVING, CASE, IFNULL
+- Escritura de datos.
+- Uso de INSERT INTO, UPDATE, DELETE
