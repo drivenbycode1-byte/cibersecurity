@@ -227,3 +227,6 @@ Como conectarse desde Python, por ejemplo. Peor puede ser de JAVA, de JS, de PHP
 
 CONNECTORS:
 No se trata del ver el código por que depende del BACKEND. 
+
+
+Para PostgreSQl, VERCEL es gratuito o tiene tier gratuito para la nuba
