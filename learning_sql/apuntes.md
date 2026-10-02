@@ -229,4 +229,10 @@ CONNECTORS:
 No se trata del ver el código por que depende del BACKEND. 
 
 
-Para PostgreSQl, VERCEL es gratuito o tiene tier gratuito para la nuba
+Para PostgreSQl, VERCEL es gratuito o tiene tier gratuito para la nube
+Para MySQL está PlanetScale y CleverCLoud
+
+Próximos pasos:
+- Diseño de base de datos.
+- QUé motor elegir para esa base de datos.
+- Concurrencias y Transacciones, estudiar*
