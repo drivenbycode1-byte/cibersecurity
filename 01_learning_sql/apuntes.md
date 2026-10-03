@@ -1,3 +1,9 @@
+-- ============================================
+-- SQL - CYBERLAB
+-- Autor: Diego Silva
+-- Fecha: 2024-09-23
+-- ============================================
+
 ===**SQL**===
 
 SEMANA 1- 23 SEPTIEMBRE AL 27 SEPTIEMBRE
@@ -231,6 +237,11 @@ No se trata del ver el código por que depende del BACKEND.
 
 Para PostgreSQl, VERCEL es gratuito o tiene tier gratuito para la nube
 Para MySQL está PlanetScale y CleverCLoud
+
+02 DE OCTUBRE
+
+SUBQUERY
+Dentro de una query se pueden tener 16 subconsultas.
 
 Próximos pasos:
 - Diseño de base de datos.
