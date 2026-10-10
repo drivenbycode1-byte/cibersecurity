@@ -11,11 +11,7 @@ Este repositorio contiene fundamentos y mis prácticas de GIT y GitHub como part
 - git config --global
 - git config --global --list
 - new-item, add ., commit "xxxx"
-- -m, -a
+- -m, -a, git status, git log
 
 Bash
-- ls, ls -a, ls -la, cd, cd .., pwd, mkdir new-item
-- git config --global
-- git config --global --list 
-- touch add ., commit "xxxx"
-- -m, -agit status
+- ls -a, ls -la, cd .., touch
