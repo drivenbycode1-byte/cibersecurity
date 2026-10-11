@@ -75,7 +75,14 @@ para movernos entre tags usamos el comandos checkout git checkout tags/clase_1
 - 26 git branch
 - 27 git switch
 - 28 git merge
-Cuidado cuando dos branch tocan la líneas de códigos del mismo fichero porque genera un conflicto de contenido
+Cuidado cuando dos branch tocan la líneas de códigos del mismo fichero porque genera un conflicto de contenido.
+
+- 30 git stash --> almacenaje temporal mientras cambiamos de branch
+Se puede usar git stash list par que te diga si hay o no algo pendiente
+para traer lo que tenía guardado hay que suar "git stash pop"
+Para eliminar un stash que no me sirve soolo hago "git stash drop"
+
+
 
 BASH
 - 02 ls -a muestra archivos ocultos
