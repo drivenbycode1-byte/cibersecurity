@@ -31,7 +31,7 @@ No se trata solamente de completar cursos o llenarme de certificaciones, sino de
 
 La ruta está organizada por etapas. El avance dependerá de la comprensión y de la capacidad para aplicar los conocimientos, no únicamente del tiempo dedicado al estudio.
 
-01. Fundamentos de programación y bases de datos
+### 01. Fundamentos de programación y bases de datos
 
 **Septiembre – octubre de 2026**
 
@@ -119,9 +119,10 @@ La ruta está organizada por etapas. El avance dependerá de la comprensión y d
 
 **Objetivo:** demostrar conocimientos mediante proyectos reproducibles, documentados y técnicamente defendibles.
 
----
 
-## 🧪 Metodología de aprendizaje
+----------------------------------
+=== Metodología de aprendizaje ===
+----------------------------------
 
 Mi proceso de estudio se basa en un ciclo de aprendizaje práctico:
 
@@ -136,9 +137,10 @@ Mi proceso de estudio se basa en un ciclo de aprendizaje práctico:
 
 El objetivo es priorizar la comprensión, la autonomía y la capacidad para resolver problemas reales.
 
----
 
-## 🎮 Aprendizaje complementario mediante videojuegos
+-------------------------------------------------------
+=== Aprendizaje complementario mediante videojuegos ===
+-------------------------------------------------------
 
 Utilizo determinados videojuegos como complemento educativo para reforzar conceptos de programación, lógica, sistemas y ciberseguridad.
 
@@ -155,9 +157,10 @@ Utilizo determinados videojuegos como complemento educativo para reforzar concep
 
 Los videojuegos no sustituyen los cursos, la documentación ni los laboratorios técnicos. Su función es reforzar lo aprendido y despertar nuevas preguntas que posteriormente pueda investigar y practicar en entornos reales o controlados.
 
----
 
-## 📂 Estructura del repositorio
+----------------------------------
+=== Estructura del repositorio ===
+----------------------------------
 
 La estructura evolucionará a medida que avance mi formación.
 
@@ -212,7 +215,9 @@ Las carpetas se incorporarán cuando sean necesarias; no es necesario crear toda
 
 ---
 
-## 📌 Proyectos y prácticas
+-----------------------------
+=== Proyectos y prácticas ===
+-----------------------------
 
 Esta sección se actualizará a medida que los proyectos estén implementados y documentados.
 
@@ -226,9 +231,9 @@ Esta sección se actualizará a medida que los proyectos estén implementados y 
 
 Los estados se actualizarán según el progreso real. Un proyecto se considerará terminado cuando su funcionamiento y sus resultados estén comprobados y documentados.
 
----
-
-## 📈 Seguimiento del progreso
+--------------------------------
+=== Seguimiento del progreso ===
+--------------------------------
 
 El progreso se medirá mediante:
 
@@ -242,22 +247,25 @@ El progreso se medirá mediante:
 
 Completar un curso no implica automáticamente dominar su contenido. Cada etapa incluirá ejercicios y desafíos para comprobar los conocimientos adquiridos.
 
----
 
-## 🛡️ Principios y buenas prácticas
+-------------------------------------
+=== Principios y buenas prácticas ===
+-------------------------------------
 
 Durante mi formación me comprometo a:
 
 * Practicar técnicas de seguridad únicamente en sistemas propios o en entornos donde tenga autorización explícita.
+* Hare uso de páginas web como Hack The Box o TryHackMe.
 * Utilizar datos ficticios en los ejercicios y proyectos de demostración.
 * No publicar contraseñas, tokens, claves privadas ni información sensible.
 * Documentar las fuentes consultadas y reconocer el trabajo de sus autores.
 * Priorizar la seguridad, la ética y el uso responsable de las herramientas.
 * Mantener un registro honesto del progreso y de las limitaciones de cada proyecto.
 
----
 
-## 🚀 Visión a largo plazo
+----------------------------
+=== Visión a largo plazo ===
+----------------------------
 
 Mi objetivo es convertir el aprendizaje autodidacta en una formación técnica progresiva, práctica y demostrable.
 
