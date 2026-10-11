@@ -6,11 +6,11 @@ Este repositorio documenta mi proceso de aprendizaje y desarrollo de habilidades
 
 Mi objetivo es construir una base técnica sólida mediante el estudio constante, la práctica, la resolución de problemas y el desarrollo de proyectos propios, avanzando progresivamente hacia una especialización profesional en ciberseguridad.
 
-No se trata solamente de completar cursos, sino de comprender los conceptos, aplicarlos en situaciones prácticas, aprender de los errores y demostrar lo aprendido mediante código, laboratorios y documentación técnica.
+No se trata solamente de completar cursos o llenarme de certificaciones, sino de comprender los conceptos, aplicarlos en situaciones prácticas, aprender de los errores y demostrar lo aprendido mediante código, laboratorios y documentación técnica.
 
----
-
-## 🎯 Objetivos
+-----------------
+=== Objetivos ===
+-----------------
 
 * Desarrollar fundamentos sólidos de programación y lógica computacional.
 * Aprender a diseñar, consultar y administrar bases de datos.
@@ -24,13 +24,14 @@ No se trata solamente de completar cursos, sino de comprender los conceptos, apl
 * Desarrollar proyectos que demuestren mis competencias técnicas.
 * Prepararme progresivamente para certificaciones y oportunidades profesionales.
 
----
 
-## 🗺️ Roadmap de aprendizaje
+------------------------------
+=== Roadmap de aprendizaje ===
+------------------------------
 
 La ruta está organizada por etapas. El avance dependerá de la comprensión y de la capacidad para aplicar los conocimientos, no únicamente del tiempo dedicado al estudio.
 
-### 01. Fundamentos de programación y bases de datos
+01. Fundamentos de programación y bases de datos
 
 **Septiembre – octubre de 2026**
 
