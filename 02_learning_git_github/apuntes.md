@@ -72,7 +72,10 @@ borra todos los cambios locales que no esten en el commit al que estamos resetea
 Si solo ponemos git tag nos mostrará los tag que tenemos guardados en el log
 para movernos entre tags usamos el comandos checkout git checkout tags/clase_1
 
-- git branch
+- 26 git branch
+- 27 git switch
+- 28 git merge
+Cuidado cuando dos branch tocan la líneas de códigos del mismo fichero porque genera un conflicto de contenido
 
 BASH
 - 02 ls -a muestra archivos ocultos
