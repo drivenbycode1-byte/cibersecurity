@@ -11,7 +11,10 @@ Este repositorio contiene fundamentos y mis prácticas de GIT y GitHub como part
 - git config --global
 - git config --global --list
 - new-item, add ., commit "xxxx"
-- -m, -a, git status, git log
+- -m, -a, git status, git log, git log --graph, git log --graph --pretty=oneline, git log --graph --decorate --all --oneline
+- config --global alias.xxxx "ejemplo --ejemplo --xxxx --xxxx"
+- touch .gitignore
+- git diff, git reflog, git tag
 
 Bash
 - ls -a, ls -la, cd .., touch

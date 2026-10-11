@@ -33,7 +33,8 @@ git rev-parse --is-inside-work-tree --> si devuelve 'true' porque estoy dentro d
 
 - 14 git push -f --> para borar otras ramas y dejar la local
 - 15 git log --> nos muestra los repos y quien los hizo
-- 16 git chekout --> cambia de branch, revierte el archivo o  recupera un archivo en específico si ponemos su código.
+- 16 git checkout --> cambia de branch, revierte el archivo o  recupera un archivo en específico si ponemos su código.
+Podríamos también decir que git checkout nos sirve para movernos entre commit
 - 17 git reset --> quita archivos del staging, no borra archivos reales
 - git reset --hard --> git elimina archivos
 - 18 git log --graph
@@ -53,7 +54,19 @@ Zona 1: Working Directory --> archivos como se ven en el pc (se edita, se borra 
 Zona 2: Staging Area --> es la sala de preparación, cuando se usa el add, Git copia la versión del archivo actual en esta área par aincluirlo en el próximo commit
 Zona 3: Repository --> los commits guardados, o sea, cuando se hace commit -m ""
 
-- 21 touch .gitignore -> es como crear una carpeta de archivo oculto, y dentro de este archivo oculto estarán los ficheros añadidos ignorados que no entrarán en repository y dentro de este archi ponemos **/.(nombre del fichero)
+- 21 touch .gitignore -> es como crear una carpeta de archivo oculto, y dentro de este archivo oculto estarán los ficheros añadidos ignorados que no entrarán en repository y dentro de este archvo ponemos **/.(nombre del fichero) NO debemos olvidar hacer add al .gitignore
+- 22 git diff --> ver qué cambio sin estar revisando los commit, es para revisar antes de hacer add
+
+Podemos ir viajando entre diferentes partes del branch que aparecen cuando hacemos el log y vemos los hash. 
+Siempre fijarnos en donde esta el HEAD para saber en qué parte del branch estamos.
+Recordar que el MAIN es el final de la rama.
+
+- 23 git rest --hard
+- 24 git reflog --> historial completo de interacciones. Con los hash borrados después de un reset, incluso después de eso puede ser recuperado el hash
+- 25 git tag --> se suelen usar para etiquetar commit
+Si solo ponemos git tag nos mostrará los tag que tenemos guardados en el log
+para movernos entre tags usamos el comandos checkout git checkout tags/clase_1
+
 
 BASH
 - 02 ls -a muestra archivos ocultos
