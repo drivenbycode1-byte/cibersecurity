@@ -15,6 +15,13 @@ Este repositorio contiene fundamentos y mis prácticas de GIT y GitHub como part
 - config --global alias.xxxx "ejemplo --ejemplo --xxxx --xxxx"
 - touch .gitignore
 - git diff, git reflog, git tag
+- git branch, git branch -d, git switch, git merge (+ conflictos), git stash, git stash list, git stash pop, git stash drop
+- ls -al ~/.ssh
+- eval "$(ssh-agent -s)"
+- ssh-keygen -t ed25519 -C "xxxx@x.com"
+- ssh -T git@github.com
+- git remote
 
-Bash
+
+Bash 
 - ls -a, ls -la, cd .., touch

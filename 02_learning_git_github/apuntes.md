@@ -82,7 +82,26 @@ Se puede usar git stash list par que te diga si hay o no algo pendiente
 para traer lo que tenía guardado hay que suar "git stash pop"
 Para eliminar un stash que no me sirve soolo hago "git stash drop"
 
+- 31 git branch -d
+Eliminar ramas para cuando ya se ha conseguido el objetivo. Recordar que las ramas son trabajos temporales.
+Todos las ramas estarán, los commit, etc, así que se pueden recuperar, siempre.
 
+- Auntenticación con SSH
+SSH (Secure Shell)
+- 32 ls -al ~/.ssh --> para saber si hay claves ssh, si no hay hay que generarlas.
+- 33 eval "$(ssh-agent -s)" --> esto nos muestra si tenemos y cual es el id
+- 34 ssh-keygen -t ed25519 -C "xxxx@x.com"
+Abrimos el archivo config y copiamos
+Host *.github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_****(nombre archivo que termina en pub)
+  IdentitiesOnly yes
+
+Recordar que ed25519 (criptografía e curva elíptica) y rsa(criptografía asimétrica) son tipos de son algoritmos de criptografía. Hoy, rsa está en desuso por ser más vulnerable y pesada
+GEneramos clave SSH con lo que se creará los archivos ssh y pub para anexarla a github y hacer un New SSH key
+
+- 35 ssh -T git@github.com --> Comprobamos si todo está bien
+- 36 git remote
 
 BASH
 - 02 ls -a muestra archivos ocultos
