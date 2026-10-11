@@ -1,4 +1,5 @@
 ### Cybersecurity Learning
+--------------------------
 
 Formación autodidacta en programación, sistemas y ciberseguridad
 
@@ -213,7 +214,7 @@ cybersecurity_learning/
 
 Las carpetas se incorporarán cuando sean necesarias; no es necesario crear toda la estructura de antemano.
 
----
+
 
 -----------------------------
 === Proyectos y prácticas ===
