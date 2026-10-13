@@ -22,7 +22,13 @@ Este repositorio contiene fundamentos y mis prácticas de GIT y GitHub como part
 - ssh -T git@github.com
 - git remote, git fetch, git clone, git push
 - FORK.
-
+Git Flow --> Ramas:
+- Main.
+- Develop.
+- Feature.
+- Release.
+- Hotfix.
+- git cherry-pick, git cherry-pick abort, git rebase, git rebase --abort
 
 Bash 
 - ls -a, ls -la, cd .., touch
