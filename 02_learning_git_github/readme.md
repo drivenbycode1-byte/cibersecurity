@@ -7,7 +7,7 @@
 Este repositorio contiene fundamentos y mis prácticas de GIT y GitHub como parte de mi ruta hacia ciberseguridad y análisis de datos.
 
 ## Contenido
-- ls, ls -force, cd, cd.., pwd, mkdir, clear
+- ls, ls -force, cd, cd.., New-Item -Path, ni, pwd, mkdir, clear
 - git config --global
 - git config --global --list
 - new-item, add ., commit "xxxx"
@@ -20,7 +20,8 @@ Este repositorio contiene fundamentos y mis prácticas de GIT y GitHub como part
 - eval "$(ssh-agent -s)"
 - ssh-keygen -t ed25519 -C "xxxx@x.com"
 - ssh -T git@github.com
-- git remote
+- git remote, git fetch, git clone, git push
+- FORK.
 
 
 Bash 

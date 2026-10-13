@@ -102,6 +102,39 @@ GEneramos clave SSH con lo que se creará los archivos ssh y pub para anexarla a
 
 - 35 ssh -T git@github.com --> Comprobamos si todo está bien
 - 36 git remote
+- 37 git pull origin main
+Tuve que hacer un pull para traer los ficheros que creé en GitHub como el nuevo README.md general.
+
+- 37 git push origin main
+Cuando ponemos "origin" ES EL NOMBRE REMIOTO QUE APUNTA AL REPO DE gIThUB Y "MAIN" para saber que rama remota usar
+
+- 38 git fetch --> descargar el historial de cambios 
+Trae los cambios del remoto sin tocar el working directory o trabajo loca, o sea, no los mezcla, no hace merge.
+Trae los commits neuvos del  remot, las ramas nueva, los tags y, IMPORTANTE,  actualiza origin/main y origin/xxxx
+Sirve para ver que hay en GitHub son emxclarlo con el trabajo local.
+Ejemplo. Cuando creé el archivo README.md en GitHub, si aplicaba el comando git fetch, me traía los commits, pero no los archivos, o sea, me decía que cosas nuevas habián en GiHub, y para verlo debo porner este comando git show origin/main:README.md, así me mostra los commits del origin que serían los commitas del remoto, entonces el remoto también tiene main y head, por eso en mi terminal aparecía como origina/MAIN y origin/HEAD.
+Ahora si hacemos git diff veremos las diferenciasd entre rama local y rama remota, si esto me parece bien y quiero mezclarlo hago un git merge.
+Pero si quiero descargar y mezclar de una hago git pull, porque fetch solo desacarga historial.
+
+Ya con todo lo anterior sabemos sincronizar con otros usuarios, y entre local y remoto.
+
+- 39 git clone (+ URL que nos da GitHub)--> soy nuevo en el equipo de trabajo y nos piden usar el repo. GitHub nos da la opción de descargarlo en zip, pero nosotros estamos trabajando con SSH
+La auntenticaión de penderá si es repo público con permisos de lectura solo se descargará, si es privada no.
+
+Entonces, si yo no tengo permisos vienen las bifurcaciones o el FORK, cuando no estoy en mi repo. Entonces para indicarle a alguien que quiero hacer cambio en un repo podemos ver todos los clones hjaciendo click en el botón FORK en GitHub. Entonces para crear un fork podemos cambiar en nombre del repo en la página de github y después clonamos, pero veremos que el clonar se hará con el nombre de mi usuario dentro de mi repo nuevo que es la copia del original.
+
+
+Ahora me gsutaría que en el repo original puediese tener el archivo nuevo que creé, eso se llama "Flujo Colaborativo".
+Podemos hacer un Sync fork para que mi repo clonado tenga los archivos que el original o el usuario jefe ha cambiado.
+Para contribuir hay una opción llamada contribute, y al hacer esto aparaece un PULL REQUEST. De esa manera en github le enviamos incluso un mensaje para decirle al original o el jefe de equipoo l oque he hecho. El PULL REQUEST es llamado PR
+Y el dueño del repo debe hacer un MERGE PULL REQUEST
+
+SIempre tener en cuenta lo que nos avisa GitHub porque te avisa que hay commits hechos sin revisar, por eso tenemos el "Synch fork" cojn un "Update Branch"
+
+
+
+
+
 
 BASH
 - 02 ls -a muestra archivos ocultos
