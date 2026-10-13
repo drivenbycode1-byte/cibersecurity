@@ -131,10 +131,20 @@ Y el dueño del repo debe hacer un MERGE PULL REQUEST
 
 SIempre tener en cuenta lo que nos avisa GitHub porque te avisa que hay commits hechos sin revisar, por eso tenemos el "Synch fork" cojn un "Update Branch"
 
+Estrategias para trabajar en diferentes ramas como "Git Flow", principalmente con PR.
+De la rama main sale la rama "Develop" que es todo lo que podría salir a producción, usar la rama MAIN principalmente para versionar, como por ejemplo, versionar cada 20 días algo que paso pruebas o se inventa una nueva parte de la app y ahí recién se despliega. Rama MAIN se usa para lo que pasa a producción y tagear. Pero el proyecto va evolucionando en la rama "Feature". La rama de Main y la rama de Dev no se cierran nunca antes de la rama Feature. Lo que Podría pasar a producción desde develop antes de Main es la rama "RELEASE". También podemos tomar decisiones si correjimos ahora o después un error en la rama "HOTFIX" pero solo desde la rama MAIN para que todos tengan la solución.                                
 
+Git Flow --> Ramas:
+- Main.
+- Develop.
+- Feature.
+- Release.
+- Hotfix.
 
+Recordar que es una paquete que se instala y organiza automáticamente todas las ramas. Encontraremos nuevos comandos a usar fpara que haya mayor seguriddad usando los comandos git flow ramaX start/finish fichero 
 
-
+- 40 git cherry-pick --> posivbilidad de irnos a un commit concreto, y ese commit cponcreto traerlo a la rama que nosotros queramos. El proble es que rompe la integridad del historial de Git y altera la trazabilidad de los cambios. o seea , se pierde la relacion del flujo original y se peuden duplicar commit y generar conflicto sfuturos. Además el autor original aunque queda en metadata, el commit formalmente pertenece a la nueva rama y nuevo contexto. Se suele usar en emergencias. para recomenzar antes de haber hecho cherry pick, se hace un cherry-pick --abort, se para el proceso y volvimos al comiit anterior.
+- 41 git rebase --> traer una rama a un punto concreto, modifica todo y altera el historial. No es solo mergear, es poner la rama en el main, como head. Podemos deshacer con abort también.
 
 BASH
 - 02 ls -a muestra archivos ocultos
