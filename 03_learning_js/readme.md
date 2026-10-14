@@ -10,11 +10,26 @@ Este repositorio contiene fundamentos y mis prácticas de Javascript como parte 
 
 - alert('')
 - document.body.innerHTML = ''
+
+Numbers
 - Basics Operators= + - * /
 - Floats and Integers
-- Math.round()               
+- Math.round()         
+
+Strings
 - node xxxx.js
 - console.log()
 - Math.floor()
 - console.log('')
 - typeof
+
+HTML & CSS Review
+- <button></button>
+- <p></p>
+- TAG
+- Nesting
+- <!DOCTYPE>
+- <html> / <head> / <body> / <title> 
+- <button title="xxxx" class="xxxx" onclick="alert('Good job!')">hello</button>       
+- <style> 
+- <script> / onclick="alert('Good job!')" 

@@ -1,0 +1,72 @@
+<!--
+HTML Structure
+<!DOCTYPE html> Esto  le dice que use el html de versión más moderna
+<html></html> todo debería ir dentro de esto dividido en 
+head (información de la página) y body (Todo lo que es visible)
+el title aparece en la apestañá
+Y ahora vamos con S al abrir un <script> y esto lo hará interactivo
+    Podemos también usar JS como un attribute
+    si usamos console.log, los resultados aparecerán en la consola
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML CSS Review</title>
+        <style>
+            .red-button {
+                background-color: red;
+                color: white;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <button title="tooltip" class="red-button"
+        onclick="
+            alert('Good job!')
+        ">hello</button>
+        <p>paragraph of text</p> 
+
+        <script>
+            alert('hello');
+            console.log(2 + 2);
+        </script>
+
+    </body>
+</html>
+
+
+<button title>hello</button>
+<p>paragraph of text</p> 
+
+<!--
+Syntax rules and HTML elemnts
+Usamos símbolo de menos y un element name y cerramos con el símbolo de mayor
+Esto se llama TAG, y tenemos el tag que cierrra y el que abre.
+Tambbién tenemos elementos dentro de elementos, y se llaman nesting
+-->
+
+<p>paragraph of <button>hello</button> text</p> 
+
+<!--
+CSS, change apareance of all buttons
+cuando ponemos "button" esa parte se llama CSS Selector
+Dentro de los curly brackets tenemos el CSS Styles
+en CSS style la parte izquierda es llamada CSS Property, la derecha CSS value
+-->
+
+
+
+
+<button>hello</button>
+<p>paragraph of <button>hello</button> text</p> 
+
+<!--
+HTML Attributes, se usa por ejemplo cuando queremos solo cambiar la apariencia de 1 botón, no todos
+el Title= sirve apra darle un nombre cuando el cursor se posa sobre el botón sin hacer click
+El title es el attribute name y el lado derecho es el attribute value
+class atribbute que agregua una etiqueta a un elemento, entonces elejimos a quien darle el atributo
+-->                               
+
+

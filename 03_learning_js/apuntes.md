@@ -46,4 +46,18 @@ Tenemos el Escape Caracther que se usa en un string con \ para indicar que es so
 template string ``(se usa con le botón escape), y tiene el pdoer de  insertaerun valor directamente en un string, lo usamos con ${} que es llamado uinterpolacion todfo esto.
 Entonces tenemos Concatenación e Interpolación
 también tenemos el multiline string que también se usa con template string, en donde automaticamente, si escribimos y dejamos texto abajo nos da automaticamente /n
-El console.log cunmple la función de print en Python
+El console.log cunmple la función de print en Python.
+
+=== HTML & CSS Review ===
+
+HYper Text Markup Language --> Given instruccion to the computer
+<button>hello</button>
+<p>paragraph of text</p>
+TAG
+Nesting = taga dentro de tag
+
+CSS --> Cascading Style Sheets + change appeerance of a website
+no aparece visible como el HTML. solo ambias apariencia
+podemos usar el live server en settings para ir cambiando en tiempo real la apariencia de la página web, vamos a live server server custom y cambiamos el null a alguna página que estemos ocupando como chrome y con click derecho ponemos en el archivo html ponemos open with live server
+
+JS --> lo podemos escribir en el <script> o en el atributo
