@@ -60,18 +60,36 @@ console.log(
 
 /*2j. Let's say we want to always round a number down (2.8 => 2)
 Using Google or an A.I. tool, search for the code to do this.*/
+console.log()
+
+console.log(Math.floor(20.95 + 7.99))
 
 /*2k. Let's always round a number up (2.2 => 3). Search how to do this.*/
 
+console.log()
+
+console.log(Math.ceil(20.95 + 7.99))
+
 //Challenge Exercises
 
-/*We'll use JavaScript to convert temperatures from Celsius (C) to
-Fahrenheit (°F). The formula is:
+/*We'll use JavaScript to convert temperatures from Celsius (C) to Fahrenheit (°F). The formula is:
 . Fahrenheit = (Celsius * 9 / 5) + 32
 . Celsius = (Fahrenheit - 32) * 5 / 9*/
 
 /*21. The temperature is 25C. Calculate the temperature in Fahrenheit. (77)*/
 
+console.log()
+
+console.log((25 * 9 / 5) + 32)
+
 /*2m. The temperature is 86°F. Calculate the temperature in Celsius. (30)*/
 
+console.log()
+
+console.log((86 - 32) * 5 / 9)
+
 /*2n. The temperature is -5C. Calculate the temperature in Fahrenheit. (23)*/
+
+console.log()
+
+console.log((-5 * 9 / 5) + 32)

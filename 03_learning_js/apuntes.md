@@ -12,8 +12,10 @@ Se usan 3 Lenguajes para crear una página web:
 - CSS: cambia la aparencia
 - Javaspcript: Interacciones con botones, sumar orders, sumar productos al carro, etc.
 
+=== Numbers ===
+
 Usamos la consola de Google con F12 y usamos el primer comando  que es alert(), esto nos deja un mensaje. Lo podemos usar en cualquier website.
-Las instrucciones como alert() es el código y el mensaje es cuando el código corre. 
+Las instrucciones como alert() es el código y el mensaje es cuando el código corre = o sea un Pop Up. 
 podemos hacer matemáticas en la consola solo con usar números y símbolos, no es necesario poner un comando previo
 document.body.innerHTML = 'hello'; --> Esto nos ayuda a limpiar la página e imprime el texto 'hello'
 Tenemos los operadores básicos.
@@ -31,3 +33,17 @@ Code
 ****Code Runner: Run In Terminal
 
 Para redondear hacian abajo usamos el "Math.floor()"
+Para redondear hacia abajo usamos "Math.ceil()"
+*Recordar que round redonde dependiendo de la regla del .5, mietras que ceil siempre es hacia arriba y floor es hacia abajo
+
+=== Strings ===
+
+Para ver en la terminal un mensaje hacemos console.log('')
+al combinar dos textos 'x' + 'x' el resultado nos dará una concatenación
+Podemoss saber que valor representa lo que tenemos con "typeof"
+Tenemos el Escape Caracther que se usa en un string con \ para indicar que es solo una letra o simbolo o numero en un texto
+\n new line caracthaer  
+template string ``(se usa con le botón escape), y tiene el pdoer de  insertaerun valor directamente en un string, lo usamos con ${} que es llamado uinterpolacion todfo esto.
+Entonces tenemos Concatenación e Interpolación
+también tenemos el multiline string que también se usa con template string, en donde automaticamente, si escribimos y dejamos texto abajo nos da automaticamente /n
+El console.log cunmple la función de print en Python

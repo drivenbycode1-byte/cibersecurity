@@ -16,3 +16,5 @@ Este repositorio contiene fundamentos y mis prácticas de Javascript como parte 
 - node xxxx.js
 - console.log()
 - Math.floor()
+- console.log('')
+- typeof
