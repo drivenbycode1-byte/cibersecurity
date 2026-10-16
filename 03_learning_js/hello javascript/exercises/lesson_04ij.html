@@ -1,0 +1,36 @@
+<!--4j. Continuing from 4i, add onclick=" ... " attributes to the two buttons:
+. When clicking 'Add to cart', create a popup with the text 'Added'.
+. When clicking 'Buy now', display the message 'Loading ... ' in the
+Console, and then create a popup with the text 'Purchased'.-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buttons</title>
+        <style>
+            .Yellow {
+                background-color: yellow;
+            }
+            .Orange{
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            Adults Plain Cotton T-shirt
+        </p>
+        <p>
+            Price: $7.99
+        </p>
+
+        <button title="Buttons" class="Yellow" onclick="alert('Added')">Add to cart</button>
+        <br>
+        <button title="Buttons" class="Orange" onclick="alert('Purchased'); console.log('Loading ... ');">Buy now</button>
+
+        <script>
+            alert('Welcome!');            
+        </script>
+    </body>
+</html>
+
