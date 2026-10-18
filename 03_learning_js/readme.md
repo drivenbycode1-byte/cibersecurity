@@ -32,4 +32,12 @@ HTML & CSS Review
 - <html> / <head> / <body> / <title> 
 - <button title="xxxx" class="xxxx" onclick="alert('Good job!')">hello</button>       
 - <style> 
-- <script> / onclick="alert('Good job!')" 
+- <script> / onclick="alert('Good job!')"
+- oneclick=""
+
+Variables
+- let
+- shortcuts = += / -= / *= / /= / ++ / --
+- const
+- var
+- typeof

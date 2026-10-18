@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart Quantity</title>
+    </head>
+    <body>
+        <button onclick="
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">Show Quantity</button>
+        <button onclick="
+                cart_quantity ++; // Same as cart_quantity = cart_quantity + 1 
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">Add Cart</button>
+        <button onclick="
+                cart_quantity += 2; //It's a shortcut of the same variable cart_quantity = cart_quantity + 2 
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">+2</button>
+        <button onclick="
+                cart_quantity = cart_quantity + 3;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">+3</button>
+        <button onclick="
+                cart_quantity = 0;
+                console.log(`Cart was reset.`);
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">Reset Cart</button>
+
+        <script>
+            let cart_quantity = 0;
+        </script> 
+    </body>
+</html>

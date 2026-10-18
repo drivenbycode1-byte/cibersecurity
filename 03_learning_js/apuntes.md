@@ -12,6 +12,7 @@ Se usan 3 Lenguajes para crear una página web:
 - CSS: cambia la aparencia
 - Javaspcript: Interacciones con botones, sumar orders, sumar productos al carro, etc.
 
+
 === Numbers ===
 
 Usamos la consola de Google con F12 y usamos el primer comando  que es alert(), esto nos deja un mensaje. Lo podemos usar en cualquier website.
@@ -36,6 +37,7 @@ Para redondear hacian abajo usamos el "Math.floor()"
 Para redondear hacia abajo usamos "Math.ceil()"
 *Recordar que round redonde dependiendo de la regla del .5, mietras que ceil siempre es hacia arriba y floor es hacia abajo
 
+
 === Strings ===
 
 Para ver en la terminal un mensaje hacemos console.log('')
@@ -47,6 +49,7 @@ template string ``(se usa con le botón escape), y tiene el pdoer de  insertaeru
 Entonces tenemos Concatenación e Interpolación
 también tenemos el multiline string que también se usa con template string, en donde automaticamente, si escribimos y dejamos texto abajo nos da automaticamente /n
 El console.log cunmple la función de print en Python.
+
 
 === HTML & CSS Review ===
 
@@ -61,3 +64,13 @@ no aparece visible como el HTML. solo ambias apariencia
 podemos usar el live server en settings para ir cambiando en tiempo real la apariencia de la página web, vamos a live server server custom y cambiamos el null a alguna página que estemos ocupando como chrome y con click derecho ponemos en el archivo html ponemos open with live server
 
 JS --> lo podemos escribir en el <script> o en el atributo
+
+
+=== Variables ===
+
+Una variable vendría siendo como un contenedorque guarda un valor y lo usa después con let
+NO podemos usar let como variable, pero sí let1 u otros con let
+Tampoco podemos empezar con números por que JS lo interpretará como número solamente
+La diferencia entre let y const es que en la última no podemos cambiar la variable una vez creada como en let
+También tenemos var y funciona como let
+Tenemos typeof que nos dice que tipo de variable es algo, como numer or string, nos sirve para chequear valores
