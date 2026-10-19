@@ -1,13 +1,67 @@
-<!--5a. Create a <script> element. Inside the <script>, create a variable
-called 'name', and save your name in this variable (as a string). -->
+<!--5h. In the Cart Quantity project, add 2 more buttons '+4' and '+5', which
+increase the quantity by 4 and 5 when you click them. Try using +=-->
+
+<!--5i. In the Cart Quantity project, add a button 'Remove from cart', which
+decreases the cart quantity by 1.-->
+
+<!--5j. Add 2 buttons '-2' and '-3', which decrease the quantity by 2 and 3.-->
+
+<!--5k. Use the shortcuts -- and -= in 5i and 5j.-->
+
 
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>Cart Quantity</title>
+    </head>
     <body>
+        <button onclick="
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">Show Quantity</button>
+        <button onclick="
+                cart_quantity ++; // Same as cart_quantity = cart_quantity + 1 
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">Add Cart</button>
+        <button onclick="
+                cart_quantity += 2; //It's a shortcut of the same variable cart_quantity = cart_quantity + 2 
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">+2</button>
+        <button onclick="
+                cart_quantity = cart_quantity + 3;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">+3</button>
+        <button onclick="
+                cart_quantity += 4;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">+4</button>
+        <button onclick="
+                cart_quantity += 5;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">+5</button>            
+        <button onclick="
+                cart_quantity = 0;
+                console.log(`Cart was reset.`);
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">Reset Cart</button>
+        <button onclick="
+                cart_quantity -= 1;
+                console.log(`1 item was removed.`);
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">Remove from cart</button>
+        <button onclick="
+                cart_quantity -= 2;
+                console.log(`2 items were removed.`);
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">-2</button>
+        <button onclick="
+                cart_quantity = cart_quantity - 3;
+                console.log(`3 items were removed.`);
+                console.log(`Cart quantity: ${cart_quantity}`);
+            ">-3</button>
+
+
         <script>
-            const name = 'Diego';
-            console.log(`My name is: ${name}`);            
-        </script>
+            let cart_quantity = 0;
+        </script> 
     </body>
 </html>
