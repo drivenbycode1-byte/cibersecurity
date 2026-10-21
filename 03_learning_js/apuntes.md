@@ -87,3 +87,4 @@ Cuando creamos los pasos para resolver un problema con código, lo llamamos algo
 || es or
 ! es Not Operator, solo usa un valor buleon  lo convierte en el valor contrario
 Scope es el espacio entre brackets en donde puedo esscribir código
+También tenemos el ternary operator que funciona en javascript así: varaible = ¿condición? → entonces esto : si no, esto otro  = (condition ? A : B)

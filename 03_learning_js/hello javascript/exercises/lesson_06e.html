@@ -1,0 +1,113 @@
+<!--Challenge Exercises
+Setup: we'll improve the Cart Quantity project. First, make a copy of the
+project from exercise 5k (if you didn't do 5k, check the solutions).
+
+6k. Let's say the cart has a maximum quantity of 10. Before updating the
+quantity, check if the quantity will be greater than 10:
+. If it will, display a popup saying 'The cart is full' and don't update
+the quantity.
+. Otherwise, update the quantity and console.log() it as usual.
+
+6l. In exercises 5i - 5k, we created the 'Remove from cart', '-2', and '-3'
+buttons. Before updating the quantity, check if it will go below 0:
+. If it will, create a popup saying 'Not enough items in the cart'
+and don't update the quantity.
+. Otherwise, update the quantity and console.log() it as usual.-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart Quantity</title>
+    </head>
+    <body>
+
+        <button onclick="
+            console.log(`Cart quantity: ${cart_quantity}`);
+        ">Show Quantity</button>
+
+        <button onclick="
+            if (cart_quantity + 1 > max) {
+                alert('The cart is full');
+            } else {
+                cart_quantity += 1;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            }
+        ">+1</button>
+
+        <button onclick="
+            if (cart_quantity + 2 > max) {
+                alert('The cart is full');
+            } else {
+                cart_quantity += 2;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            }
+        ">+2</button>
+
+        <button onclick="
+            if (cart_quantity + 3 > max) {
+                alert('The cart is full');
+            } else {
+                cart_quantity += 3;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            }
+        ">+3</button>
+
+        <button onclick="
+            if (cart_quantity + 4 > max) {
+                alert('The cart is full');
+            } else {
+                cart_quantity += 4;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            }
+        ">+4</button>
+
+        <button onclick="
+            if (cart_quantity + 5 > max) {
+                alert('The cart is full');
+            } else {
+                cart_quantity += 5;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            }
+        ">+5</button>
+
+        <button onclick="
+            cart_quantity = 0;
+            console.log('Cart was reset.');
+            console.log(`Cart quantity: ${cart_quantity}`);
+        ">Reset Cart</button>
+
+        <button onclick="
+            if (cart_quantity - 1 < 0) {
+                alert('Not enough items in the cart');
+            } else {
+                cart_quantity -= 1;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            }
+        ">-1</button>
+
+        <button onclick="
+            if (cart_quantity - 2 < 0) {
+                alert('Not enough items in the cart');
+            } else {
+                cart_quantity -= 2;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            }
+        ">-2</button>
+
+        <button onclick="
+            if (cart_quantity - 3 < 0) {
+                alert('Not enough items in the cart');
+            } else {
+                cart_quantity -= 3;
+                console.log(`Cart quantity: ${cart_quantity}`);
+            }
+        ">-3</button>
+
+        <script>
+            let cart_quantity = 0;
+            let max = 10; // límite global
+        </script>
+
+    </body>
+</html>

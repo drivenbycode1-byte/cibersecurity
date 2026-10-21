@@ -1,0 +1,82 @@
+<!--6f. Generate a random number with Math.random(). Save it in a variable.
+
+6g. Create an if-statement and check:
+. If the number is less than 0.5, then display 'heads' in the console.
+. Else display 'tails' in the console.
+
+6h. Instead of displaying 'heads' or 'tails' in the console, save the result
+in a variable called 'result'.
+
+6i. Let's say we're trying to guess the result. Create a variable called
+'guess' and save your guess ('heads' or 'tails').
+. If your guess matches the result, display 'You win!' in the console
+. If your guess does not match the result, display 'You lose!'
+
+6j. (Challenge) Instead of using if-statements in the previous exercises,
+try switching them into ternary operators (condition ? A : B).-->
+
+<!--<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <title>Coin-flip Game</title>
+        <script>
+            let random_number = Math.random();
+            let result = '';
+            if (random_number > 0.5) {
+                result = 'heads';
+            } else {
+                result = 'tails';
+            }
+
+            let guess = 'heads';
+            if (guess === result) {
+                console.log('You win!');
+            } else {
+                console.log('You lose =(')
+            }
+
+            console.log(`Result: ${result}. Guess: ${guess}`)
+        </script>
+    </body>
+</html>-->
+
+<!-- Aquí tenemos un ejercicios que nos dirá ¿condición? → entonces esto : si no, esto otro
+-->
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <title>Coin-flip Game</title>
+
+    <script>
+        let random_number = Math.random(); 
+
+        let result = random_number > 0.5 ? 'heads' : 'tails';  // 6j: convertir el if en ternario. 
+
+        let guess = 'heads'; // Si la condición es verdadera → 'heads'  
+        
+        let message = guess === result ? 'You win!' : 'You lose!'; // 6j: otro ternario
+
+        console.log(message);
+        console.log(`Result: ${result}. Guess: ${guess}`);
+    </script>
+
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <title>Coin-flip Game</title>
+
+    <script>
+        let result = Math.random() > 0.5 ? 'heads' : 'tails';
+        let guess = 'heads';
+        console.log(guess === result ? 'You win!' : 'You lose!');
+    </script>
+
+</body>
+</html>-->

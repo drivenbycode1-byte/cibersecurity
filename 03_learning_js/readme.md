@@ -49,3 +49,4 @@ Booleans
 - if () {} // else // else if
 - Math.random
 - && // || // !
+- (condition ? A : B)
