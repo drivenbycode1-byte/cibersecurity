@@ -37,7 +37,15 @@ HTML & CSS Review
 
 Variables
 - let
-- shortcuts = += / -= / *= / /= / ++ / --
+- shortcuts = += // -= // *= // /= // ++ // --
 - const
 - var
 - typeof
+
+Booleans
+- true
+- false
+- > // < // >= // <= // === // == // !==
+- if () {} // else // else if
+- Math.random
+- && // || // !

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+
+    <h2>Rock Paper Scissor</h2>
+
+    <button onclick="play('rock')">Rock</button>
+    <button onclick="play('paper')">Paper</button>
+    <button onclick="play('scissor')">Scissor</button>
+
+<script>
+    function getComputerMove() {
+        const moves = ['rock', 'paper', 'scissor'];
+        const index = Math.floor(Math.random() * 3);
+        return moves[index];
+    }
+
+    function getResult(player, computer) {
+        if (player === computer) return 'Tie.';
+
+        const rules = {
+            rock:     { beats: 'scissor', lose: 'paper' },
+            paper:    { beats: 'rock',    lose: 'scissor' },
+            scissor:  { beats: 'paper',   lose: 'rock' }
+        };
+
+        if (rules[player].beats === computer) return 'You won.';
+        return 'You lose.';
+    }
+
+    function play(playerMove) {
+        const computerMove = getComputerMove();
+        const result = getResult(playerMove, computerMove);
+
+        alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}`);
+    }
+</script>
+
+</body>
+</html>

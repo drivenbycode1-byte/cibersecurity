@@ -74,3 +74,16 @@ Tampoco podemos empezar con números por que JS lo interpretará como número so
 La diferencia entre let y const es que en la última no podemos cambiar la variable una vez creada como en let
 También tenemos var y funciona como let
 Tenemos typeof que nos dice que tipo de variable es algo, como numer or string, nos sirve para chequear valores
+
+
+=== Booleans ===
+
+Another type of value: True or False
+La diferencia entre == y === es que == convierte dos valores en el mismo tipo
+si el valor de if es false el código no se expresará
+if statement (instrucción): if es una declaración, dentro hay una condición if (condición). Si se cumple la condición corre el código.
+Cuando creamos los pasos para resolver un problema con código, lo llamamos algoritmo
+&& es and
+|| es or
+! es Not Operator, solo usa un valor buleon  lo convierte en el valor contrario
+Scope es el espacio entre brackets en donde puedo esscribir código
