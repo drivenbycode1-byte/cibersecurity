@@ -88,3 +88,19 @@ Cuando creamos los pasos para resolver un problema con código, lo llamamos algo
 ! es Not Operator, solo usa un valor buleon  lo convierte en el valor contrario
 Scope es el espacio entre brackets en donde puedo esscribir código
 También tenemos el ternary operator que funciona en javascript así: varaible = ¿condición? → entonces esto : si no, esto otro  = (condition ? A : B)
+
+
+=== Functions ===
+
+Nos deja reusar el código
+Tracing the code = Useful to know eaht's code is doing
+When can use global variable or return statement
+Parameters es diferente al return,
+Return = obtiene un valor fuera de la función
+Parameter = Pone un valor dentro de una función
+Cuando pasamos el valor a una función, después de haber designado el parámetro, decimos que esa función tiene un argumento:
+    function calculate_tax(parameter) {
+        console.log(parameter * 0.1)
+    }
+
+    calculate_tax(2000) // 2000 argument

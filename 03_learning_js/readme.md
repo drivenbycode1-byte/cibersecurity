@@ -42,7 +42,7 @@ Variables
 - var
 - typeof
 
-Booleans
+Booleans                        
 - true
 - false
 - > // < // >= // <= // === // == // !==
@@ -50,3 +50,9 @@ Booleans
 - Math.random
 - && // || // !
 - (condition ? A : B)
+
+Functions
+- function example() {}
+- return
+- parameters --> function example(parameter) {}
+- default value --> function example(parameter1, parameter2 = default_value) {}
