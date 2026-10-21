@@ -56,3 +56,6 @@ Functions
 - return
 - parameters --> function example(parameter) {}
 - default value --> function example(parameter1, parameter2 = default_value) {}
+
+Objects
+- 

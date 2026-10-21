@@ -104,3 +104,7 @@ Cuando pasamos el valor a una función, después de haber designado el parámetr
     }
 
     calculate_tax(2000) // 2000 argument
+
+
+=== Objects ===
+
