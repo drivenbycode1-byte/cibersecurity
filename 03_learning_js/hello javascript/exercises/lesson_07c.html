@@ -1,0 +1,50 @@
+<!--7k. Create a copy of the Cart Quantity project from exercise 6l.
+. Create a function 'updateCartQuantity' and reuse the code.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart Quantity</title>
+</head>
+<body>
+
+    <button onclick="console.log(`Cart quantity: ${cart_quantity}`)">Show Quantity</button>
+
+    <button onclick="updateCartQuantity(1)">+1</button>
+    <button onclick="updateCartQuantity(2)">+2</button>
+    <button onclick="updateCartQuantity(3)">+3</button>
+    <button onclick="updateCartQuantity(4)">+4</button>
+    <button onclick="updateCartQuantity(5)">+5</button>
+
+    <button onclick="
+        cart_quantity = 0;
+        console.log('Cart was reset.');
+    ">Reset Cart</button>
+
+    <button onclick="updateCartQuantity(-1)">-1</button>
+    <button onclick="updateCartQuantity(-2)">-2</button>
+    <button onclick="updateCartQuantity(-3)">-3</button>
+
+    <script>
+        let cart_quantity = 0;
+        let max = 10;
+
+        function updateCartQuantity(amount) {
+
+            if (cart_quantity + amount > max) {
+                alert('The cart is full');
+                return;
+            }
+
+            if (cart_quantity + amount < 0) {
+                alert('Not enough items in the cart');
+                return;
+            }
+
+            cart_quantity += amount;
+            console.log(`Cart quantity: ${cart_quantity}`);
+        }
+    </script>
+
+</body>
+</html>
