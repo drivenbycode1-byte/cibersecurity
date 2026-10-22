@@ -108,3 +108,18 @@ Cuando pasamos el valor a una función, después de haber designado el parámetr
 
 === Objects ===
 
+Agrupa múltiples vlues juntos
+El property sirve para conocer un value específico
+podemos cambiar el valor asociado al valor asociado property con opbject.name = 'xxxx'
+lo que está dentro de curly brackets es el property-pair value
+podemos agregar también un par valor
+tambien podemos borrarlo con delete 
+nos sirve para tener código organizado al tener variables relacionadas todoa juntos y también usarlas juntas.
+Tenemos los backets notations que hace los mismos que los dot notation (que llama al valor asociado al property)
+Nested object: Objetos dentro de objetos
+Method: Funcion dentro de un objeto
+BUilt-in objects: Objetos provistos por el mismo lenguaje, como JSON y localStorage
+JSON: Javascript Object Notation --> Tiene una sintax como un objeto de JS pero con menos features. Deben usar double quotes "" y no soporta funciones.
+JSON es universal, puede ser usado por muchos lenguajes.
+Built-in JSON Object: convierte objeto de JS a JSON.
+

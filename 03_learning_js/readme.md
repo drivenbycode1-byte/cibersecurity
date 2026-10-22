@@ -58,4 +58,11 @@ Functions
 - default value --> function example(parameter1, parameter2 = default_value) {}
 
 Objects
-- 
+- const product = {
+        name: 'socks',
+        price: 1090
+    };
+  property --> console.log(product.name);
+- property-pair value
+- delete.object
+- console.log(product2['name2']);

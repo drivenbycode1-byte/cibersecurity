@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>Objects</head>
+    <head></head>
+    <body>
+        <script>
+            const product = {
+                name: 'socks',
+                price: 1090
+            };
+            console.log(product);
+            console.log(product.name);
+            console.log(product.price);
+
+            product.name = 'cotton socks';
+            console.log(product);
+
+            product.new_property = true;
+            console.log(product);
+
+            delete product.new_property
+            console.log(product);
+
+            // Otra forma de llamar a los valores de property que no funcionan con dot notation.
+            // también dentro de los [] podemos usar operators, llamar variables
+            const product2 = {
+                name2: 'shirt',
+                ['delivery_time']: '1 day', // los brackets son opcionales
+                rating: {
+                    stars: 4.5,
+                    count: 87
+                },
+                fun: function function1() {
+                    console.log('Function inside object.');
+                }
+            };
+            console.log(product2);
+            console.log(product2.name2);
+            console.log(product2['name2']);
+            console.log(product2['delivery_time']);
+
+            console.log(product2.rating.count);
+            product2.fun();
+
+            JSON.stringify(product2);
+            console.log(JSON.stringify(product2)); // En la consola no aparece la función porque JSON no soporta funciones
+            
+            const json_string = JSON.stringify(product2); // Al revés, convierte JSON a objetos
+            JSON.parse(json_string);
+            console.log(JSON.parse(json_string))
+        </script>
+    </body>
+</html>
