@@ -48,6 +48,48 @@
             const json_string = JSON.stringify(product2); // Al revés, convierte JSON a objetos
             JSON.parse(json_string);
             console.log(JSON.parse(json_string))
+
+            console.log('hello'.length); // Auto-boxing
+            console.log('hello'.toUpperCase()); // Auto-boxing
+
+            const object1 = {
+                message: 'hello'
+            };
+            const object2 = object1; //Este código hace referencia que apunta al objeto guardado en la memoria del pc
+            // esta variable object2 hace referencia al valor de object1
+            
+            object1.message = 'Good job!';   
+            console.log(object1)  
+            console.log(object2)     
+            
+
+            const object4 = {
+                message: 'Good job!',
+                price: 799
+            };
+
+            // const message = object4.message;
+            const { message, price } = object4; // La variable de abajo es lo mismo que la de arriba = DESTRUCTURING
+            // O sea, lo que hace es sacar el message property de object4 y lo guarda en una variable llamada message
+            // destructuring shortcut
+
+            console.log(message);
+            console.log(price);
+
+            const object5 = {
+                // message: message
+                message, // Este es el shorthand Property: 
+                //method: function function1() {
+                //   console.log('method')
+                //}
+                method() {
+                    console.log('method')
+                }
+            };
+            console.log(object5);
+            object5.method();
+
+
         </script>
     </body>
 </html>

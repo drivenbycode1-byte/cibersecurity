@@ -122,4 +122,13 @@ BUilt-in objects: Objetos provistos por el mismo lenguaje, como JSON y localStor
 JSON: Javascript Object Notation --> Tiene una sintax como un objeto de JS pero con menos features. Deben usar double quotes "" y no soporta funciones.
 JSON es universal, puede ser usado por muchos lenguajes.
 Built-in JSON Object: convierte objeto de JS a JSON.
+Next built-in object = localStorage: es usado para guadar valores permanentemente. 
+Por ejemplo, si actulizamos la página rock paper scissor todo se perdería sin localStorage. Solo soporta strings
+Auto-Boxing: le da propiedades a los strings, autmaticamente JS envuelven en un caja el valor
+Objects are references: cuando creamos un objeto, el valor =se escibe en la memoria del computador. y esta se refencia a esa localizacion en la memoria del PC
+Esto es llamado Copy by References
+No podemos compara objetos directamente
+Destructuring: take out a property, it's a shortcut
+Shorthand Property: si se repite el property y depués del semicolon usamos un objeto con el mismo nombre, usamos solo una vez el nombre
+Shorthand Method: 
 

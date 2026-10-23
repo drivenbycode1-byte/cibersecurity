@@ -66,3 +66,15 @@ Objects
 - property-pair value
 - delete.object
 - console.log(product2['name2']);
+- Nested Object
+- Built-in Objects
+- JSON
+- Built-in JSON Objects
+- JSON.stringify()
+- JSON.parse()
+- localStorage.setItem()
+- localStorage.getItem()
+- Auto-Boxing
+- Copy by reference
+- Destructuring
+- Shorthand Property

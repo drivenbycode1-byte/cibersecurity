@@ -22,15 +22,38 @@
                 score.loses = 0;
                 score.ties = 0;
 
+                localStorage.removeItem('score')
+
                 alert('Reset the score.');
             ">Reset Score</button>
 
         <script>
-            const score = {
+            /*const score = {
                 wins: 0,
                 loses: 0,
                 ties: 0
-            };
+            };*/ // Esto lo borramos para reemplazarlo
+
+            let score = JSON.parse(localStorage.getItem('score')) || { // if left side is truthfy is run OR|| falsy (or null) we use the right side
+                    wins: 0,
+                    losses: 0,
+                    ties: 0
+                }; // ESTO solo sirve como shorcut pero es lo mismo que el objeto de abajo, me refiero a lo que está derecha de ||
+
+            // JSON.parse(localStorage.getItem('score')); // Este lo ponemos aquí para que cuandoo carguemos la página sea LO PRIMERO
+            // localStorage.getItem('score') es solo un string, debemos convertirlo a objeto (localStorage solo guarda strings)
+            // el .getItem() nos sirve para sacar los valores    
+
+            /*if (!score) {
+                score = {
+                    wins: 0,
+                    losses: 0,
+                    ties: 0
+                };
+            }*/ //En caso de que nos de null, podemos crear el objeto
+
+          
+
 
             function play_game(player_move) {
                 const computer_move = pick_computer_move();
@@ -69,9 +92,16 @@
                     score.wins += 1;
                 } else if (result === 'You lose.') {
                     score.loses += 1;
-                } else if (result === 'You tie.') {
+                } else if (result === 'Tie.') {
                     score.ties += 1;
-                };
+                }
+
+                localStorage.setItem('score', JSON.stringify(score)); // Esto solo guarda valores, no los saca. 
+                // El primer score es el name que es como accederemos a lo valores después, el segundo valor es el objeto convertido a string
+                // Depués de update the score con la función play game, guardamos los resultados en el string anterior
+                // para poder guardar valores dentro de localStorage usamos el método .setItem
+                //IMPORTANTE: Para que localStorage.setItem funcione debe haberse creado antes el objeto sino no sabe cuál sería la maqueta de ese objeto
+
             
 
                 alert(`You picked ${player_move}. Computer picked ${computer_move}. ${result}
