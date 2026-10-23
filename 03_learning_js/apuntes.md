@@ -135,5 +135,8 @@ Shorthand Method:
 
 === Document Object Model (DOM) ===
 
-
+Another Built-in Object
+Los document object representan modelos de webpages.
+Cuando un elemento HTML está dentro de un un lenguaje JS, el elemento html se convierte en JS = console.log(document.body)
+El bosy es HTML, pero está dentro de un variable de JS mediandte el objeto document.body
 

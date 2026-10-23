@@ -80,4 +80,6 @@ Objects
 - Shorthand Property
 
 DOM
--
+- document.body.innerHTML
+- document.title
+- document.querySelector()

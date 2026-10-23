@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <title>DOM</title>
+    <head></head>
+    <body>
+        <button>hello</button>
+        <button class="js-button">Second button</button>
+
+        <script>
+            // document.body.innerHTML = 'hello'; // Removes everything on the pages. Is used with Dot Notation. controls all inside <body>
+            document.title = 'Document Object Notation';
+
+            document.body.innerHTML = '<button>Good job!</button>';
+
+            document.querySelector('button').innerHTML; // Let us get any  element from the page an put it inside JS
+            // Se abre un double quotes dentro y se coloca el elemento HTML que queramos modificar.
+            // si a eso le sumamos innerHTML, modificamos lo que estará al interior del elemento HTML seleccionado
+
+            document.querySelector('button')
+                .innerHTML = 'Changed';
+
+            const button_element = document.querySelector('.js-button').innerHTML = 'Second Button'; // el dot buscará una clase en vez de un elemento
+
+        </script> 
+    </body>
+</html>
