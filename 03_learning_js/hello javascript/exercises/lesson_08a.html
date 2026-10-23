@@ -1,0 +1,104 @@
+<!--8a. Let's say in the Amazon project, we have a basketball product. This
+product has a name of 'basketball', a price of 2095 cents. Create an
+object to represent this product and display it in the console.
+
+8b. Continuing from 8a, let's say we want to increase the price by 500
+cents. Use dot notation to increase the price, and display the
+updated object in the console.
+
+8c. Using bracket notation, add a property 'delivery-time' to the object
+with the value '3 days'. Display the updated object in the console.
+
+8d. Create a function 'comparePrice(product1, product2)', which takes 2
+products (with 'name' and 'price' properties) and returns the product
+that is less expensive. Create 2 products and try out the function.
+
+8e. Create a function 'isSameProduct(product1, product2)', which returns
+true if 2 products have the same values inside ('name' and 'price').
+If not, return false. Create 2 products and try out the function.
+(Hint: objects are references so you can't compare them directly).
+
+8f. Using Google or an A.I. tool, search how to convert a string to all
+lowercase with JavaScript ('Good Morning' => 'good morning')
+
+8g. Search how to repeat a string many times ('test' 2 times => 'testtest')-->
+
+<!DOCTYPE html>
+<html>
+    <title>Cart Quantity</title>
+    <head></head>
+    <body>
+        <script>
+            let basketball = {
+                name: 'basketball',
+                price: 2095
+            };
+            console.log(basketball);
+
+            basketball.price = 500;
+            console.log(basketball.price);
+            console.log(basketball);
+
+            basketball['deliver_time'] = '3 days';
+            console.log(basketball);
+
+            function comparePrice(product1, product2) {
+                if (product1.price < product2.price) {
+                return product1;
+                } else {
+                return product2;
+                }
+            }
+
+            const product1 = {
+                name: 'basketball',
+                price: 2095
+            };
+
+            const product2 = {
+                name: 'socks',
+                price: 1090
+            };
+
+            console.log(comparePrice(product1, product2));
+
+            function isSameProduct(product1, product2) {
+                if (
+                product1.name === product2.name &&
+                product1.price === product2.price
+                ) {
+                return true;
+                } else {
+                return false;
+                }
+            }
+
+            const product3 = {
+                name: 'basketball',
+                price: 2095
+            };
+
+            const product4 = {
+                name: 'socks',
+                price: 1090
+            };
+
+            const product5 = {
+                name: 'basketball',
+                price: 2095
+            };
+
+            console.log(isSameProduct(product3, product4));
+            console.log(isSameProduct(product3, product5));
+
+            console.log('Good Morning'.toLowerCase()); 
+
+            console.log('hello'.repeat(2));
+            console.log('test'.repeat(3));    
+
+
+
+
+        </script>
+    </body>
+</html>
