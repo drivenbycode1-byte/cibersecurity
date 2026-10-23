@@ -132,3 +132,8 @@ Destructuring: take out a property, it's a shortcut
 Shorthand Property: si se repite el property y depués del semicolon usamos un objeto con el mismo nombre, usamos solo una vez el nombre
 Shorthand Method: 
 
+
+=== Document Object Model (DOM) ===
+
+
+
